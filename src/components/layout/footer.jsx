@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import {FacebookIcon, InstagramIcon, TwitterIcon, YoutubeIcon} from "../ui/icons";
+import {FacebookIcon, InstagramIcon, TwitterIcon, UpArrowIcon, YoutubeIcon} from "../ui/icons";
 import footerBg from "../../../public/images/footer-bg.png";
 export default function Footer() {
     return (
@@ -60,7 +60,9 @@ export default function Footer() {
                     </div>
                 </div>
             </div>
-
+            <a href="#hero" className="shadow-lg fixed bottom-10 right-10 inline-flex items-center justify-center rounded-xl bg-orange-500 p-2 text-white hover:scale-125 transition-all">
+                <UpArrowIcon/>
+            </a>
         </footer>
     );
 };

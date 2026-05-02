@@ -8,6 +8,10 @@
     --color-gray-500: #F8F9FA;
 }
 
+html{
+   @apply scroll-smooth;
+}
+
 * {
     @apply outline-none;
 }

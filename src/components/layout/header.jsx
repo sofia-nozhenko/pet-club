@@ -53,7 +53,6 @@ export default function Header() {
                                     >
                                         {link.title}
                                     </Link>
-
                                     {link.submenu && (
                                         <button
                                             onClick={() => toggleSubmenu(link.id)}
@@ -64,7 +63,6 @@ export default function Header() {
                                         </button>
                                     )}
                                 </div>
-
                                 {link.submenu && (
                                     <div
                                         className={`overflow-hidden transition-all duration-300 ${

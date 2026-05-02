@@ -60,7 +60,8 @@ export default function Footer() {
                     </div>
                 </div>
             </div>
-            <a href="#hero" className="shadow-lg fixed bottom-10 right-10 inline-flex items-center justify-center rounded-xl bg-orange-500 p-2 text-white hover:scale-125 transition-all">
+            <a href="#hero" className="shadow-lg fixed bottom-10 right-10 inline-flex items-center justify-center rounded-xl
+             bg-orange-500 p-2 text-white hover:scale-125 transition-all">
                 <UpArrowIcon/>
             </a>
         </footer>
